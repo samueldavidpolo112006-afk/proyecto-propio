@@ -37,8 +37,7 @@ class Program
                     break;
 
                 case 3:
-                    Console.WriteLine("Entrando al menú de préstamos...");
-                    Console.ReadKey();
+                    ShowLoansMenu();
                     break;
 
                 case 4:
@@ -141,6 +140,48 @@ class Program
 
                 case 4:
                     Console.WriteLine("Eliminar usuario...");
+                    Console.ReadKey();
+                    break;
+            }
+        }
+    }
+
+    static void ShowLoansMenu()
+    {
+        int opcion = 0;
+
+        while (opcion != 5)
+        {
+            Console.Clear();
+            Console.WriteLine("===== GESTIÓN DE PRÉSTAMOS =====");
+            Console.WriteLine("1. Registrar préstamo");
+            Console.WriteLine("2. Listar préstamos");
+            Console.WriteLine("3. Buscar préstamo");
+            Console.WriteLine("4. Devolver libro");
+            Console.WriteLine("5. Volver");
+            Console.Write("Seleccione una opción: ");
+
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("Registrar préstamo...");
+                    Console.ReadKey();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Listar préstamos...");
+                    Console.ReadKey();
+                    break;
+
+                case 3:
+                    Console.WriteLine("Buscar préstamo...");
+                    Console.ReadKey();
+                    break;
+
+                case 4:
+                    Console.WriteLine("Devolver libro...");
                     Console.ReadKey();
                     break;
             }
