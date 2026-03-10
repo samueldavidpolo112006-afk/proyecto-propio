@@ -33,8 +33,7 @@ class Program
                     break;
 
                 case 2:
-                    Console.WriteLine("Entrando al menú de usuarios...");
-                    Console.ReadKey();
+                    ShowUsersMenu();
                     break;
 
                 case 3:
@@ -100,6 +99,48 @@ class Program
 
                 case 4:
                     Console.WriteLine("Eliminar libro...");
+                    Console.ReadKey();
+                    break;
+            }
+        }
+    }
+
+    static void ShowUsersMenu()
+    {
+        int opcion = 0;
+
+        while (opcion != 5)
+        {
+            Console.Clear();
+            Console.WriteLine("===== GESTIÓN DE USUARIOS =====");
+            Console.WriteLine("1. Agregar usuario");
+            Console.WriteLine("2. Listar usuarios");
+            Console.WriteLine("3. Buscar usuario");
+            Console.WriteLine("4. Eliminar usuario");
+            Console.WriteLine("5. Volver");
+            Console.Write("Seleccione una opción: ");
+
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("Agregar usuario...");
+                    Console.ReadKey();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Listar usuarios...");
+                    Console.ReadKey();
+                    break;
+
+                case 3:
+                    Console.WriteLine("Buscar usuario...");
+                    Console.ReadKey();
+                    break;
+
+                case 4:
+                    Console.WriteLine("Eliminar usuario...");
                     Console.ReadKey();
                     break;
             }
