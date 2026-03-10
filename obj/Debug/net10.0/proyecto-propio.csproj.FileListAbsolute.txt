@@ -1,0 +1,15 @@
+/workspaces/proyecto-propio/bin/Debug/net10.0/proyecto-propio
+/workspaces/proyecto-propio/bin/Debug/net10.0/proyecto-propio.deps.json
+/workspaces/proyecto-propio/bin/Debug/net10.0/proyecto-propio.runtimeconfig.json
+/workspaces/proyecto-propio/bin/Debug/net10.0/proyecto-propio.dll
+/workspaces/proyecto-propio/bin/Debug/net10.0/proyecto-propio.pdb
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.GeneratedMSBuildEditorConfig.editorconfig
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.AssemblyInfoInputs.cache
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.AssemblyInfo.cs
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.csproj.CoreCompileInputs.cache
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.sourcelink.json
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.dll
+/workspaces/proyecto-propio/obj/Debug/net10.0/refint/proyecto-propio.dll
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.pdb
+/workspaces/proyecto-propio/obj/Debug/net10.0/proyecto-propio.genruntimeconfig.cache
+/workspaces/proyecto-propio/obj/Debug/net10.0/ref/proyecto-propio.dll
