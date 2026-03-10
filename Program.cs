@@ -29,8 +29,7 @@ class Program
             switch (opcion)
             {
                 case 1:
-                    Console.WriteLine("Entrando al menú de libros...");
-                    Console.ReadKey();
+                    ShowBooksMenu();
                     break;
 
                 case 2:
@@ -59,6 +58,48 @@ class Program
 
                 default:
                     Console.WriteLine("Opción no válida");
+                    Console.ReadKey();
+                    break;
+            }
+        }
+    }
+
+    static void ShowBooksMenu()
+    {
+        int opcion = 0;
+
+        while (opcion != 5)
+        {
+            Console.Clear();
+            Console.WriteLine("===== GESTIÓN DE LIBROS =====");
+            Console.WriteLine("1. Agregar libro");
+            Console.WriteLine("2. Listar libros");
+            Console.WriteLine("3. Buscar libro");
+            Console.WriteLine("4. Eliminar libro");
+            Console.WriteLine("5. Volver");
+            Console.Write("Seleccione una opción: ");
+
+            opcion = Convert.ToInt32(Console.ReadLine());
+
+            switch (opcion)
+            {
+                case 1:
+                    Console.WriteLine("Agregar libro...");
+                    Console.ReadKey();
+                    break;
+
+                case 2:
+                    Console.WriteLine("Listar libros...");
+                    Console.ReadKey();
+                    break;
+
+                case 3:
+                    Console.WriteLine("Buscar libro...");
+                    Console.ReadKey();
+                    break;
+
+                case 4:
+                    Console.WriteLine("Eliminar libro...");
                     Console.ReadKey();
                     break;
             }
